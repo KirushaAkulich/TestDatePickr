@@ -23,6 +23,7 @@ namespace TestPicker.iOS
                 var title = string.Format("{0} clicks!", count++);
                 Button.SetTitle(title, UIControlState.Normal);
             };
+            datepicker.PreferredDatePickerStyle = UIDatePickerStyle.Wheels;
         }
 
         public override void DidReceiveMemoryWarning()
